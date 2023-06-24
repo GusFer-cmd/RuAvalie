@@ -1,25 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import MainPage from './components/RuAvalie/MainPage';
+import MyMenu2 from './components/RuAvalie/Menuv2';
+//import Login from './components/RuAvalie/Login';
+//import MyMenu from './components/RuAvalie/Menu';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="App">
+        <MainPage />
+      </div>
   );
 }
 
 export default App;
+
